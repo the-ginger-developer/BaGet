@@ -1,12 +1,11 @@
-using System;
 using BaGet.Azure;
 using BaGet.Core;
 using Microsoft.Azure.Cosmos.Table;
 using Microsoft.Azure.Search;
+using Microsoft.Azure.Storage.Blob;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
-using Microsoft.Azure.Storage.Blob;
 
 namespace BaGet
 {

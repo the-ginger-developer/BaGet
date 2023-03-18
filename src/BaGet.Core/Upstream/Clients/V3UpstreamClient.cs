@@ -1,13 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using BaGet.Protocol;
 using BaGet.Protocol.Models;
-using NuGet.Versioning;
 using Microsoft.Extensions.Logging;
+using NuGet.Versioning;
 
 namespace BaGet.Core
 {

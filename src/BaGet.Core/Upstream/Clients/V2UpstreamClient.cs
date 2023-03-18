@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using NuGet.Common;
@@ -151,7 +145,7 @@ namespace BaGet.Core
                 PackageTypes = new List<PackageType>(),
                 RepositoryUrl = null,
                 RepositoryType = null,
-                Tags = package.Tags?.Split(new[] {';'}, StringSplitOptions.RemoveEmptyEntries),
+                Tags = package.Tags?.Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries),
 
                 Dependencies = ToDependencies(package)
             };

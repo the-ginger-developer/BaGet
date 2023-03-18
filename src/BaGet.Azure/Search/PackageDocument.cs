@@ -1,4 +1,3 @@
-using System;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.Azure.Search;
 using Microsoft.Azure.Search.Models;
@@ -47,7 +46,7 @@ namespace BaGet.Azure
         /// <summary>
         /// The package's full versions after normalization, including any SemVer 2.0.0 build metadata.
         /// </summary>
-        public string[] Versions { get; set;  }
+        public string[] Versions { get; set; }
         public string[] VersionDownloads { get; set; }
 
         [IsSearchable]

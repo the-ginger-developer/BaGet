@@ -1,4 +1,3 @@
-using System;
 using BaGet.Core;
 using BaGet.Database.MySql;
 using Microsoft.EntityFrameworkCore;

@@ -1,4 +1,3 @@
-using System.Linq;
 using BaGet.Core;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;

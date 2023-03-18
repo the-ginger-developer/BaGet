@@ -1,4 +1,3 @@
-using System;
 using Aliyun.OSS;
 using BaGet.Aliyun;
 using BaGet.Core;

@@ -1,9 +1,5 @@
-using System;
 using System.Collections.Concurrent;
 using System.Diagnostics;
-using System.Net.Http;
-using System.Threading;
-using System.Threading.Tasks;
 using NuGet.Configuration;
 using NuGet.Protocol;
 using NuGet.Protocol.Core.Types;
@@ -37,7 +33,7 @@ namespace BaGet.Tests
             if (source.PackageSource.IsHttp)
             {
                 curResource = _cache.GetOrAdd(
-                    source.PackageSource, 
+                    source.PackageSource,
                     packageSource => new HttpSourceResource(TestableHttpSource.Create(source, _httpClient)));
             }
 

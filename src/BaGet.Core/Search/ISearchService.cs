@@ -1,5 +1,3 @@
-using System.Threading;
-using System.Threading.Tasks;
 using BaGet.Protocol.Models;
 
 namespace BaGet.Core

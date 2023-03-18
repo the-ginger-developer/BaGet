@@ -1,5 +1,3 @@
-using System;
-
 namespace BaGet.Protocol.Catalog
 {
     /// <summary>

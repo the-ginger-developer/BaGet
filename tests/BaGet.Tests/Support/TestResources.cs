@@ -1,5 +1,3 @@
-using System.IO;
-
 namespace BaGet.Tests
 {
     public static class TestResources

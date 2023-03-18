@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System.Text.Json.Serialization;
 using BaGet.Protocol.Models;
 
@@ -16,7 +15,7 @@ namespace BaGet.Core
     /// </remarks>
     public class BaGetRegistrationIndexPage
     {
-#region Original properties from RegistrationIndexPage.
+        #region Original properties from RegistrationIndexPage.
         [JsonPropertyName("@id")]
         public string RegistrationPageUrl { get; set; }
 
@@ -28,7 +27,7 @@ namespace BaGet.Core
 
         [JsonPropertyName("upper")]
         public string Upper { get; set; }
-#endregion
+        #endregion
 
         /// <summary>
         /// This was modified to use BaGet's extended registration index page item model.

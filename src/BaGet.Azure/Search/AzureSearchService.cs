@@ -1,9 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using BaGet.Core;
 using BaGet.Protocol.Models;
 using Microsoft.Azure.Search;
@@ -80,7 +75,7 @@ namespace BaGet.Azure
 
                 results.Add(new SearchResult
                 {
-                    PackageId =  document.Id,
+                    PackageId = document.Id,
                     Version = document.Version,
                     Description = document.Description,
                     Authors = document.Authors,

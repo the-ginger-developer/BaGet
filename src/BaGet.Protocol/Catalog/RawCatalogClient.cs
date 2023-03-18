@@ -1,8 +1,3 @@
-using System;
-using System.Linq;
-using System.Net.Http;
-using System.Threading;
-using System.Threading.Tasks;
 using BaGet.Protocol.Models;
 
 namespace BaGet.Protocol.Internal

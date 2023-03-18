@@ -1,8 +1,6 @@
-using System;
 using System.Text.Json.Serialization;
 using BaGet.Core;
 using BaGet.Web;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BaGet
